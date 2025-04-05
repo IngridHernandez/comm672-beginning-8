@@ -240,9 +240,18 @@ footer img {
 .feature-page-block ul li {
   margin-left: 20px;
 }
-.feature-page-block {
+/*.feature-page-block {
     display: grid;
     grid-template-columns: 1fr;
+}*/
+.feature-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.feature-page-block {
+    display: flex;
+    flex-wrap: wrap;
 }
 /* community page */
 .community {
