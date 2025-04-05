@@ -343,6 +343,10 @@ footer a img{
    display: flex;
    flex-direction: column;
 }
+.event-block.featured {
+    display: flex;
+    flex-wrap: wrap;
+}
 .event-block.featured h3 p {
     grid-template-columns: 1fr;
  
